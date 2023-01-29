@@ -1,5 +1,5 @@
 # see https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
-resource "github_repository" "main" {
+resource "github_repository" "master" {
   name                   = var.name
   description            = var.description
   homepage_url           = var.homepage_url
